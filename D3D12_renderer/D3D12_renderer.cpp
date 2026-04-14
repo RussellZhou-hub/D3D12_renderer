@@ -47,9 +47,9 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 			auto* cmdList = DXContext::Get().InitCommandList();
 
 			DXWindow::Get().BeginFrame(cmdList);
-			DXContext::Get().ExecuteCommandList();
+            DXWindow::Get().EndFrame(cmdList);
+            DXContext::Get().ExecuteCommandList();
             DXWindow::Get().Preset();
-			DXWindow::Get().EndFrame(cmdList);
 		}
 
 		DXWindow::Get().Shutdown();

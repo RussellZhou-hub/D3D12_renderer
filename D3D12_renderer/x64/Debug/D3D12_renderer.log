@@ -1,5 +1,2 @@
-﻿  Window.cpp
-F:\Data\SourceCode\D3D12_renderer\D3D12_renderer\Window.cpp(61,38): warning C4267: '=': conversion from 'size_t' to 'UINT', possible loss of data
-F:\Data\SourceCode\D3D12_renderer\D3D12_renderer\Window.cpp(151,168): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
-F:\Data\SourceCode\D3D12_renderer\D3D12_renderer\Window.cpp(233,12): warning C4267: 'argument': conversion from 'size_t' to 'UINT', possible loss of data
+﻿  DXContext.cpp
   D3D12_renderer.vcxproj -> F:\Data\SourceCode\D3D12_renderer\x64\Debug\D3D12_renderer.exe
